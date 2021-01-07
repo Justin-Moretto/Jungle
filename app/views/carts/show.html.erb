@@ -8,7 +8,7 @@
     <div>
       <h3 class="alert alert-info"> Cart is empty. </h3>
       <br/>
-      <%= link_to 'Continue Shopping.', :root %>
+      <%= link_to "Continue Shopping", root_path, class: 'btn btn-lg btn-primary' %>
     </div>
   <% else %>
     <div class="panel panel-default items">
@@ -39,7 +39,6 @@
     </table>
     </div>
 
-          #Pay with card button
     <div class="row">
     <div class="col-xs-12">
       <%= form_tag orders_path do %>
