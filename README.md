@@ -2,6 +2,17 @@
 
 A mini e-commerce application built with Rails 4.2 for purposes of teaching Rails by example.
 
+Users may
+- create aan account
+- log in
+- add items to their cart
+- delete items from their cart
+- checkout using stripe
+
+Admins may
+- create product categories
+- add products to their store
+- remove products from their store
 
 ## Setup
 
